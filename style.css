@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lucida Calligraphy";
+  }
+  body {
+    height: 100vh;
+    width: 100%;
+  }
+  .container {
+    width: 410px;
+    height: 450px;
+    display: flex;
+    padding: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: inset 5px 5px 2px rgba(236, 236, 235, 0.5),
+      inset -5px -5px 2px rgba(236, 236, 235, 0.5);
+  }
+  .container .text {
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+  }
+  .sentence {
+    font-size: 20px;
+    margin: 5px 0;
+    border: black;
+  }
+  input {
+    height: 30px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+  
+    cursor: pointer;
+  }
+  input[type="text"],
+  input[type="text"] {
+    border-bottom: 1px solid rgb(114, 6, 6);
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    height: 30px;
+    opacity: 1;
+  }
+  input:hover {
+    background-color: rgb(223, 222, 222);
+  }
+  .letter {
+    margin-top: 30px;
+  }
+  button {
+    margin: 45px 0 30px 0;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    left: 110px;
+    position: relative;
+  }
